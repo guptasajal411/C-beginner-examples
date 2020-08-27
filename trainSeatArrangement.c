@@ -3,7 +3,8 @@
  and they got interested in the seating arrangement of their
  compartment. The compartment
  looked something like :-
-
+ 
+ https://he-s3.s3.amazonaws.com/media/uploads/a2e0794.jpg
 
 
 So they got interested to know the seat number facing them and
