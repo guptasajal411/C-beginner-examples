@@ -1,14 +1,11 @@
+  
 /*
 You have been given a String S. You need to find and print whether this string is a palindrome or not. If yes, print "YES" (without quotes), else print "NO" (without quotes).
-
 Input Format
 The first and only line of input contains the String S. The String shall consist of lowercase English alphabets only.
-
 Output Format
 Print the required answer on a single line.
-
 Constraints 
-
 Note
 String S consists of lowercase English Alphabets only.
 */
@@ -19,7 +16,7 @@ String S consists of lowercase English Alphabets only.
 int main()
 {
     /* code */
-    char palin[100];
+    char palin[20];
     printf("Enter the word to check palindrome : ");
     scanf("%s", &palin);
 
@@ -37,16 +34,34 @@ int main()
             check++;
         }
     }
-    if (check == a / 2 || check == (a / 2) + 1)
+    if (a % 2 == 0)
     {
         /* code */
-        printf("YES");
+        if (check == (a / 2) + 1)
+        {
+            /* code */
+            printf("YES");
+        }
+        else
+        {
+            /* code */
+            printf("NO");
+        }
     }
-    else
+    if (a % 2 != 0)
     {
         /* code */
-        printf("NO");
+        if (check == (a / 2) + 1)
+        {
+            /* code */
+            printf("YES");
+        }
+        else
+        {
+            /* code */
+            printf("NO");
+        }
     }
-    
+
     return 0;
 }
