@@ -31,6 +31,5 @@ int main()
     gets(str);
     printf("%s\n", str);
     puts(str);
-    puts(str);
     return 0;
 }
